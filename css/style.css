@@ -13,15 +13,17 @@ a {
     /* Ảnh nền của trang đầu tiên nếu bạn muốn đổi thì đổi tại đây */
     background-image: url("../img/background.png");
     background-repeat: no-repeat;
-    margin: 0;
+    margin: auto;
+    font-size: 14px;
     padding: 0;
     background-size: cover;
-    background-position-y: rem;
+    width: 100%;
+    height: 100%;
 }
 .buttons {
     display: flex;
-    column-gap: 3rem;
-    padding: 2rem;
+    column-gap: 2rem;
+    padding: 1rem;
 }
 
 .btn-bir:hover {
@@ -109,7 +111,7 @@ a {
    
     box-shadow: 0 0 30px #eee;
     position: absolute;
-    margin-top: 3rem;
+    margin-top: 2rem;
     left: calc(50% - 100px);
   
     border-radius: 120px;
